@@ -29,6 +29,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-50 font-sans selection:bg-amber-500/30 overflow-x-hidden">
+      {/* Aviso de Página Indisponível */}
+      <div className="w-full bg-red-600 text-white text-center py-2 px-4 text-sm font-semibold tracking-wide uppercase z-50 relative">
+        ⚠️ Esta página ainda está em construção e não pode ser usada no momento.
+      </div>
+
       {/* Lightbox */}
       <AnimatePresence>
         {lightboxImg && (
